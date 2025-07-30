@@ -92,48 +92,33 @@ Or, open and explore the Jupyter notebook in the /examples directory for step-by
 
 ## Inputs and Outputs
 Inputs
-•	Time-series experimental data:
-o	Biomass (gDCW/L)
-o	Thiosulfate (mol/L)
-o	Sulfate (mol/L)
-o	Elemental sulfur (mol/L)
-•	Model parameter values (provided or to be fitted).
-Outputs
-•	Simulated time profiles of all state variables.
-•	Estimated kinetic and inhibition parameters.
-•	Model goodness-of-fit metrics (R², RMSE).
-•	Sensitivity and scenario analysis results.
-•	High-quality plots for publication or reports.
+- Time-series experimental data:
+    - Biomass (gDCW/L)
+    - Thiosulfate (mol/L)
+    - Sulfate (mol/L)
+    - Elemental sulfur (mol/L)
+    - Model parameter values (provided or to be fitted).
+- Outputs
+    - Simulated time profiles of all state variables.
+    - Estimated kinetic and inhibition parameters.
+    - Model goodness-of-fit metrics (R², RMSE).
+    - Sensitivity and scenario analysis results.
+    - High-quality plots for publication or reports.
 
 ---
 
 ## Parameters
 BioGIM uses twelve parameters, including:
-•	μmax-H: Maximum specific growth rate (h⁻¹)
-•	Ks: Half-saturation constant for thiosulfate (mol/L)
-•	Ki: Inhibition constant for thiosulfate (mol/L)
-•	PSO₄,max: Critical sulfate inhibition threshold (mol/L)
-•	ms: Maintenance coefficient (mol S₂O₃/gDCW·h)
-•	k_so: Elemental sulfur utilization rate (L/gDCW·h)
-•	k: Sulfate inhibition factor
-•	Stoichiometric and yield coefficients (Yxs, Yps, Yp2s, etc.)
+- μmax-H: Maximum specific growth rate (h⁻¹)
+- Ks: Half-saturation constant for thiosulfate (mol/L)
+- Ki: Inhibition constant for thiosulfate (mol/L)
+- PSO₄,max: Critical sulfate inhibition threshold (mol/L)
+- ms: Maintenance coefficient (mol S₂O₃/gDCW·h)
+- k_so: Elemental sulfur utilization rate (L/gDCW·h)
+- k: Sulfate inhibition factor
+- Stoichiometric and yield coefficients (Yxs, Yps, Yp2s, etc.)
+
 For full details, see Table 1 in the publication.
-
----
-
-## Example Usage
-Here is a minimal example to run a simulation using BioGIM:
-import numpy as np
-from scipy.integrate import odeint
-from biogim import model, default_params  # assuming model.py
-
-# Example: Simulate time course
-y0 = [0.01, 0.1, 0.0, 0.0]  # Initial [X, S, P, PS]
-t = np.linspace(0, 100, 100)
-
-solution = odeint(model, y0, t, args=default_params)
-# solution[:, 0] = Biomass, solution[:, 1] = Thiosulfate, etc.
-For more examples, see the /examples directory.
 
 ---
 
