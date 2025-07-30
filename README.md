@@ -131,10 +131,5 @@ Email: oluwatunmise.dada@wsu.edu
 ________________________________________
 BioGIM: Biodesulfurization Growth Inhibition Models.
 
----
 
-**Customize as follows:**
-- Replace `YOUR_DOI_HERE`, `YOUR_USERNAME`, and `your_email@wsu.edu` as needed.
-- After publication, update citation details and Table 1 link.
-- If you want a quickstart Jupyter notebook or requirements.txt, just ask!
 
