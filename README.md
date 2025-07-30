@@ -64,6 +64,7 @@ All major functionalities of BioGIM are available as interactive Jupyter noteboo
 - `02_validation.ipynb` – Model validation on independent datasets
 - `03_sensitivity_analysis.ipynb` – Sensitivity analysis for key model parameters
 - `04_scenario_analysis.ipynb` – Scenario and parameter sweep analyses
+- `05_thiosulfate_biotransformation.ipynb` – Biotransformation of thiosulfate to sulfate and elemental sulfur
 
 Open these notebooks with [Jupyter Notebook](https://jupyter.org/) or [JupyterLab](https://jupyterlab.readthedocs.io/).
 
