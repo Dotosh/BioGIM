@@ -1,16 +1,11 @@
-# BioGIM
-BioGIM (Biodesulfurization Growth Inhibition Model)
-
-This model is part of the 
-.
 # BioGIM: Biodesulfurization Growth Inhibition Model
 
 [![DOI](https://zenodo.org/badge/DOI/YOUR_DOI_HERE.svg)](https://doi.org/YOUR_DOI_HERE)
 
-BioGIM (Biodesulfurization Growth Inhibition Model) is an open-source Python package for modeling the biotransformation of thiosulfate by sulfur-oxidizing bacteria (SOB) under conditions of sulfate inhibition. The model is designed for both research and teaching, and is based on a Haldane-type kinetics framework.
+BioGIM (Biodesulfurization Growth Inhibition Model) is an open-source Python package based on a Haldane-type kinetics framework for modeling the biotransformation of thiosulfate (S₂O₃²⁻) to sulfate (SO₄²⁻) and elemental sulfur (S⁰) by sulfur-oxidizing bacteria (SOB) under conditions of sulfate inhibition.
 
 > **From the publication:**  
-> *A Haldane-based kinetic model—BioGIM (Biodesulfurization Growth Inhibition Model)—was developed to account for sulfate-induced growth inhibition, predict the critical sulfate inhibition threshold (PSO₄,max), and capture the metabolic switch from thiosulfate to elemental sulfur as a secondary energy substrate.*
+> *A Haldane-based kinetic model—BioGIM (Biodesulfurization Growth Inhibition Model)—was developed to describe growth dynamics...by accounting for sulfate-induced growth inhibition, predict the critical sulfate inhibition threshold (PSO₄,max), and capture the metabolic switch from the primary substrate (thiosulfate) to a secondary substrate (elemental sulfur) under thiosulfate-limited conditions*
 
 This model and its application are described in detail in our peer-reviewed article (**DOI: [pending]**).
 
@@ -35,26 +30,26 @@ This model and its application are described in detail in our peer-reviewed arti
 
 BioGIM is a mechanistic model formulated in Python to describe:
 
-- Microbial growth dynamics and substrate consumption under thiosulfate biodesulfurization.
+- Microbial growth dynamics and thiosulfate biodesulfurization to sulfate and elemental sulfur.
 - The effect of sulfate product (SO₄²⁻) inhibition on microbial growth and metabolism.
 - The critical sulfate inhibition threshold (PSO₄,max) and its effect on metabolic pathways.
 - The metabolic switch from thiosulfate to elemental sulfur (S⁰) as a secondary substrate under substrate-limited conditions.
 
-BioGIM uses four state variables:
+BioGIM uses four time-series state variables:
 - Biomass (X)
 - Thiosulfate (S, S₂O₃²⁻)
 - Sulfate (P, SO₄²⁻)
 - Elemental sulfur (PS, S⁰)
 
-And twelve parameters, which are dynamically estimated or provided by the user. All model equations and parameter definitions are given in [Table 1 of the published paper](https://doi.org/YOUR_DOI_HERE).
+And twelve parameters, which are dynamically estimated based on the state variables. All model equations and parameter definitions are given in [Table 1 of the published paper](https://doi.org/YOUR_DOI_HERE).
 
 ---
 
 ## Features
 
-- **Dynamic simulation** of microbial, substrate, and product concentrations.
+- **Dynamic simulation** of microbial growth, substrate consumption, and product (sulfate and elemental sulfur) production.
 - **Parameter estimation** and model calibration using experimental time-series data.
-- **Scenario and sensitivity analyses** for process optimization.
+- **Validation, scenario analysis, and sensitivity analysis** for process optimization.
 - **Publication-quality plotting** for model validation and reporting.
 - **Open-source and extensible** for custom bioprocess applications.
 
@@ -98,7 +93,7 @@ BioGIM uses twelve parameters, including:
 •	PSO₄,max: Critical sulfate inhibition threshold (mol/L)
 •	ms: Maintenance coefficient (mol S₂O₃/gDCW·h)
 •	k_so: Elemental sulfur utilization rate (L/gDCW·h)
-•	n: Sulfate inhibition factor
+•	k: Sulfate inhibition factor
 •	Stoichiometric and yield coefficients (Yxs, Yps, Yp2s, etc.)
 For full details, see Table 1 in the publication.
 ________________________________________
@@ -118,8 +113,8 @@ For more examples, see the /examples directory.
 ________________________________________
 How to Cite
 If you use BioGIM for research or teaching, please cite:
-Outshine Tunmise, et al. (202X).
-"A Haldane-based kinetic model for sulfate inhibition and metabolic switching in thiosulfate biodesulfurization." Journal Name, https://doi.org/YOUR_DOI_HERE
+Dada et al. (202X).
+"Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. isolates from Soap Lake, Washington." Journal Name, https://doi.org/YOUR_DOI_HERE
 You may also cite this repository (see Zenodo badge above).
 ________________________________________
 License
@@ -129,12 +124,12 @@ Contact
 Questions, bug reports, or suggestions?
 •	Open an issue
 •	Contact:
-Outshine Tunmise
+Oluwatunmise Dada
 Department of Biological Systems Engineering
 Washington State University
-Email: your_email@wsu.edu
+Email: oluwatunmise.dada@wsu.edu
 ________________________________________
-BioGIM: advancing open, reproducible science in biodesulfurization kinetics.
+BioGIM: Biodesulfurization Growth Inhibition Models.
 
 ---
 
