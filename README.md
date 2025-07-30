@@ -20,7 +20,6 @@ This model and its application are described in detail in our peer-reviewed arti
 - [Quick Start](#quick-start)
 - [Inputs and Outputs](#inputs-and-outputs)
 - [Parameters](#parameters)
-- [Example Usage](#example-usage)
 - [How to Cite](#how-to-cite)
 - [License](#license)
 - [Contact](#contact)
@@ -73,20 +72,19 @@ Open these notebooks with [Jupyter Notebook](https://jupyter.org/) or [JupyterLa
 ## Installation
 
 **1. Clone the repository**
-
+````bash
 git clone https://github.com/YOUR_USERNAME/BioGIM.git
 cd BioGIM
-
+````
 **2. Install required dependencies**
+````bash
 pip install -r requirements.txt
 Dependencies include: numpy, scipy, matplotlib.
-
+````
 ---
 
 ## Quick Start
-Run the example script to see a typical model calibration and simulation:
-python run_biogim_example.py
-Or, open and explore the Jupyter notebook in the /examples directory for step-by-step analysis.
+Run the notebook files to see a typical model calibration, validation, and other simulations for step-by-step analysis.
 
 ---
 
@@ -123,9 +121,10 @@ For full details, see Table 1 in the publication.
 ---
 
 ## How to Cite
-If you use BioGIM for research or teaching, please cite:
+If you use BioGIM for research or teaching, please cite:\
 Dada et al. (202X).
-"Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. isolates from Soap Lake, Washington." Journal Name, https://doi.org/YOUR_DOI_HERE
+"Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. isolates from Soap Lake, Washington." Journal Name, https://doi.org/YOUR_DOI_HERE\
+
 You may also cite this repository (see Zenodo badge above).
 
 ---
@@ -137,16 +136,16 @@ BioGIM is licensed under the MIT License. See LICENSE for details.
 
 ## Contact
 Questions, bug reports, or suggestions?
-•	Open an issue
-•	Contact:
-Oluwatunmise Dada
-Department of Biological Systems Engineering
-Washington State University
+
+Contact:\
+Oluwatunmise Dada\
+Department of Biological Systems Engineering\
+Washington State University\
 Email: oluwatunmise.dada@wsu.edu
 
 
 ________________________________________
-BioGIM: Biodesulfurization Growth Inhibition Models.
+BioGIM: Biodesulfurization Growth Inhibition Model
 
 
 
