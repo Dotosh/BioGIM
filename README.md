@@ -15,6 +15,7 @@ This model and its application are described in detail in our peer-reviewed arti
 
 - [Model Description](#model-description)
 - [Features](#features)
+- [Functionalities](#functionalities)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Inputs and Outputs](#inputs-and-outputs)
@@ -55,22 +56,40 @@ And twelve parameters, which are dynamically estimated based on the state variab
 
 ---
 
+## Functionalities
+
+All major functionalities of BioGIM are available as interactive Jupyter notebooks in the [notebooks/](notebooks/) directory:
+
+- `01_joint_calibration.ipynb` – Joint parameter calibration with experimental data
+- `02_validation.ipynb` – Model validation on independent datasets
+- `03_sensitivity_analysis.ipynb` – Sensitivity analysis for key model parameters
+- `04_scenario_analysis.ipynb` – Scenario and parameter sweep analyses
+
+Open these notebooks with [Jupyter Notebook](https://jupyter.org/) or [JupyterLab](https://jupyterlab.readthedocs.io/).
+
+---
+
 ## Installation
 
 **1. Clone the repository**
-```bash
+
 git clone https://github.com/YOUR_USERNAME/BioGIM.git
 cd BioGIM
-2. Install required dependencies
+
+**2. Install required dependencies**
 pip install -r requirements.txt
 Dependencies include: numpy, scipy, matplotlib.
-________________________________________
-Quick Start
+
+---
+
+## Quick Start
 Run the example script to see a typical model calibration and simulation:
 python run_biogim_example.py
 Or, open and explore the Jupyter notebook in the /examples directory for step-by-step analysis.
-________________________________________
-Inputs and Outputs
+
+---
+
+## Inputs and Outputs
 Inputs
 •	Time-series experimental data:
 o	Biomass (gDCW/L)
@@ -84,8 +103,10 @@ Outputs
 •	Model goodness-of-fit metrics (R², RMSE).
 •	Sensitivity and scenario analysis results.
 •	High-quality plots for publication or reports.
-________________________________________
-Parameters
+
+---
+
+## Parameters
 BioGIM uses twelve parameters, including:
 •	μmax-H: Maximum specific growth rate (h⁻¹)
 •	Ks: Half-saturation constant for thiosulfate (mol/L)
@@ -96,8 +117,10 @@ BioGIM uses twelve parameters, including:
 •	k: Sulfate inhibition factor
 •	Stoichiometric and yield coefficients (Yxs, Yps, Yp2s, etc.)
 For full details, see Table 1 in the publication.
-________________________________________
-Example Usage
+
+---
+
+## Example Usage
 Here is a minimal example to run a simulation using BioGIM:
 import numpy as np
 from scipy.integrate import odeint
@@ -110,17 +133,23 @@ t = np.linspace(0, 100, 100)
 solution = odeint(model, y0, t, args=default_params)
 # solution[:, 0] = Biomass, solution[:, 1] = Thiosulfate, etc.
 For more examples, see the /examples directory.
-________________________________________
-How to Cite
+
+---
+
+## How to Cite
 If you use BioGIM for research or teaching, please cite:
 Dada et al. (202X).
 "Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. isolates from Soap Lake, Washington." Journal Name, https://doi.org/YOUR_DOI_HERE
 You may also cite this repository (see Zenodo badge above).
-________________________________________
-License
+
+---
+
+## License
 BioGIM is licensed under the MIT License. See LICENSE for details.
-________________________________________
-Contact
+
+---
+
+## Contact
 Questions, bug reports, or suggestions?
 •	Open an issue
 •	Contact:
@@ -128,6 +157,8 @@ Oluwatunmise Dada
 Department of Biological Systems Engineering
 Washington State University
 Email: oluwatunmise.dada@wsu.edu
+
+
 ________________________________________
 BioGIM: Biodesulfurization Growth Inhibition Models.
 
