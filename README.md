@@ -5,7 +5,7 @@
 BioGIM (Biodesulfurization Growth Inhibition Model) is an open-source Haldane-based kinetics model for modeling the biotransformation of thiosulfate (S₂O₃²⁻) to sulfate (SO₄²⁻) and elemental sulfur (S⁰) by sulfur-oxidizing bacteria (SOB) under conditions of sulfate inhibition. It is implemented in Python.
 
 > **From the publication:**  
-> *A Haldane-based kinetic model—BioGIM (Biodesulfurization Growth Inhibition Model)—was developed to describe growth dynamics...by accounting for sulfate-induced growth inhibition, predict the critical sulfate inhibition threshold (PSO₄,max), and capture the metabolic switch from the primary substrate (thiosulfate) to a secondary substrate (elemental sulfur) under thiosulfate-limited conditions*
+> *A Haldane-based kinetic model—BioGIM (Biodesulfurization Growth Inhibition Model)—was developed to describe growth dynamics...by accounting...for sulfate-induced growth inhibition, predict the critical sulfate inhibition threshold (PSO₄,max), and capture...the metabolic switch from the primary substrate (thiosulfate) to a secondary substrate (elemental sulfur) under thiosulfate-limited conditions*
 
 This model and its application are described in detail in our peer-reviewed article (**DOI: [pending]**).
 
