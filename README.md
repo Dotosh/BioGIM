@@ -73,7 +73,7 @@ Open these notebooks with [Jupyter Notebook](https://jupyter.org/) or [JupyterLa
 
 **1. Clone the repository**
 ````bash
-git clone https://github.com/YOUR_USERNAME/BioGIM.git
+git clone https://github.com/Dotosh/BioGIM.git
 cd BioGIM
 ````
 **2. Install required dependencies**
