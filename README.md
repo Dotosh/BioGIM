@@ -19,7 +19,7 @@ This model and its application are described in detail in our peer-reviewed arti
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Inputs and Outputs](#inputs-and-outputs)
-- [Parameters](#parameters)
+- [Parameters and Variables](#parameters-and-variables)
 - [How to Cite](#how-to-cite)
 - [License](#license)
 - [Contact](#contact)
