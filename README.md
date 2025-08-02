@@ -84,44 +84,58 @@ Dependencies include: numpy, scipy, matplotlib.
 ---
 
 ## Quick Start
-Run the notebook files to see a typical model calibration, validation, and other simulations for step-by-step analysis.
+Open or run the notebook files to see a typical model calibration, validation, and other simulations for step-by-step analysis.
 
 ---
 
 ## Inputs and Outputs
 Inputs
-- Time-series experimental data:
-    - Biomass (gDCW/L)
-    - Thiosulfate (mol/L)
-    - Sulfate (mol/L)
-    - Elemental sulfur (mol/L)
-    - Model parameter values (provided or to be fitted).
-- Outputs
-    - Simulated time profiles of all state variables.
-    - Estimated kinetic and inhibition parameters.
-    - Model goodness-of-fit metrics (R², RMSE).
-    - Sensitivity and scenario analysis results.
-    - High-quality plots for publication or reports.
+- Time-series experimental data for state variables.
+- Experimental yields.
+- Boundary conditions.
+
+Outputs
+- Simulated time profiles of all state variables.
+- Estimated kinetic and inhibition parameters.
+- Model goodness-of-fit metrics (R², RMSE).
+- Sensitivity and scenario analysis results.
+- High-quality plots for publication or reports.
 
 ---
 
-## Parameters
-BioGIM uses twelve parameters, including:
-- μmax-H: Maximum specific growth rate (h⁻¹)
-- Ks: Half-saturation constant for thiosulfate (mol/L)
-- Ki: Inhibition constant for thiosulfate (mol/L)
-- PSO₄,max: Critical sulfate inhibition threshold (mol/L)
-- ms: Maintenance coefficient (mol S₂O₃/gDCW·h)
-- k_so: Elemental sulfur utilization rate (L/gDCW·h)
-- k: Sulfate inhibition factor
-- Stoichiometric and yield coefficients (Yxs, Yps, Yp2s, etc.)
+## Parameters and Variables
+
+BioGIM uses twelve parameters and four state variables, including:
+
+**Parameters**
+
+- *μ<sub>max-H</sub>*: Maximum specific growth rate for Haldane fitting (h⁻¹)
+- *K<sub>s</sub>*: Half-saturation constant for thiosulfate (mol S₂O₃²⁻/L)
+- *K<sub>i</sub>*: Inhibition constant for thiosulfate (mol S₂O₃²⁻/L)
+- *P<sub>SO₄,max</sub>*: Critical sulfate inhibition threshold (mol SO₄²⁻/L)
+- *m<sub>s</sub>*: Maintenance coefficient (mol S₂O₃²⁻/gDCW·h)
+- *k<sub>so</sub>*: Specific sulfur oxidation rate constant (L/gDCW·h)
+- *ks<sub>switch</sub>*: Thiosulfate-to-sulfur switch concentration (mol S₂O₃²⁻/L)
+- *k*: Sulfate inhibition factor
+- Stoichiometric and yield coefficients:
+    - *Y<sub>xs</sub>*: Biomass yield coefficient g DCW/mol S₂O₃²⁻
+    - *Y<sub>ps</sub>*: Thiosulfate-to-sulfate yield coefficient mol SO₄²⁻/mol S₂O₃²⁻
+    - *Y<sub>p2s</sub>*: Thiosulfate-to-sulfur yield coefficient mol S⁰/mol S₂O₃²⁻
+    - *Y<sub>so4_s0</sub>*: Sulfur-to-sulfate yield coefficient mol SO₄²⁻/mol S⁰
+
+**State Variables**
+- X - Biomass concentration (g DCW/L)
+- S - Thiosulfate concentration (mol S₂O₃²⁻/L)
+- P - Sulfate concentration (mol SO₄²⁻/L)
+- Ps - Elemental sulfur concentration (mol S⁰/L)
 
 For full details, see Table 1 in the publication.
 
 ---
 
 ## How to Cite
-If you use BioGIM for research or teaching, please cite:\
+If you use BioGIM for research or teaching, please cite:
+
 Dada et al. (202X).
 "Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. isolates from Soap Lake, Washington." Journal Name, https://doi.org/YOUR_DOI_HERE\
 
