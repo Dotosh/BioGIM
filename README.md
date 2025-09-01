@@ -1,13 +1,13 @@
 # BioGIM: Biodesulfurization Growth Inhibition Model
 
-[![DOI](https://zenodo.org/badge/DOI/YOUR_DOI_HERE.svg)](https://doi.org/YOUR_DOI_HERE)
+[![DOI](https://zenodo.org/badge/DOI/YOUR_DOI_HERE.svg)](https://doi.org/10.1016/j.gce.2025.08.004)
 
 BioGIM (Biodesulfurization Growth Inhibition Model) is an open-source Haldane-based kinetics model for modeling the biotransformation of thiosulfate (S₂O₃²⁻) to sulfate (SO₄²⁻) and elemental sulfur (S⁰) by sulfur-oxidizing bacteria (SOB) under conditions of sulfate inhibition. It is implemented in Python v3.12.7.
 
 > **From the publication:**  
 > *A Haldane-based kinetic model—BioGIM (Biodesulfurization Growth Inhibition Model)—was developed to describe growth dynamics...by accounting...for sulfate-induced growth inhibition, predict the critical sulfate inhibition threshold (PSO₄,max), and capture...the metabolic switch from the primary substrate (thiosulfate) to a secondary substrate (elemental sulfur) under thiosulfate-limited conditions*
 
-This model and its application are described in detail in our peer-reviewed article (**DOI: [pending]**).
+This model and its application are described in detail in our peer-reviewed article (**https://doi.org/10.1016/j.gce.2025.08.004**).
 
 ---
 
@@ -136,8 +136,8 @@ For full details, see Table 1 in the publication.
 ## How to Cite
 If you use BioGIM for research or teaching, please cite:
 
-Dada et al. (202X).
-"Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. isolates from Soap Lake, Washington." Journal Name, https://doi.org/YOUR_DOI_HERE\
+Dada et al. (2025).
+"Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. isolates from Soap Lake, Washington." Journal Name, https://doi.org/10.1016/j.gce.2025.08.004
 
 You may also cite this repository (see Zenodo badge above).
 
