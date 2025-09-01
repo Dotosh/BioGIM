@@ -31,7 +31,7 @@ This model and its application are described in detail in our peer-reviewed arti
 BioGIM is a mechanistic model formulated in Python to describe:
 
 - Microbial growth dynamics and thiosulfate biodesulfurization to sulfate and elemental sulfur.
-- The effect of sulfate product (SO₄²⁻) inhibition on microbial growth and metabolism.
+- The effect of sulfate (SO₄²⁻) product inhibition on microbial growth and metabolism.
 - The critical sulfate inhibition threshold (P<sub>SO₄,max</sub>) and its effect on metabolic pathways.
 - The metabolic switch from thiosulfate to elemental sulfur (S⁰) as a secondary substrate under substrate-limited conditions.
 
