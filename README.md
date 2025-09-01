@@ -41,7 +41,7 @@ BioGIM uses four time-series state variables:
 - Sulfate (P, SO₄²⁻)
 - Elemental sulfur (PS, S⁰)
 
-And twelve parameters, which are dynamically estimated based on the state variables. All model equations and parameter definitions are given in [Table 1 of the published paper](https://doi.org/YOUR_DOI_HERE).
+And twelve parameters, which are dynamically estimated based on the state variables. All model equations and parameter definitions are given in [Table 1 of the published paper](https://www.sciencedirect.com/science/article/pii/S2666952825000780?via%3Dihub#tbl1:~:text=Table%201.%20BioGIM%20parameter%20and%20variable%20annotations%20with%20definitions).
 
 ---
 
@@ -129,17 +129,16 @@ BioGIM uses twelve parameters and four state variables, including:
 - P - Sulfate concentration (mol SO₄²⁻/L)
 - Ps - Elemental sulfur concentration (mol S⁰/L)
 
-For full details, see Table 1 in the publication.
+For full details, see [Table 1](https://www.sciencedirect.com/science/article/pii/S2666952825000780?via%3Dihub#tbl1:~:text=Table%201.%20BioGIM%20parameter%20and%20variable%20annotations%20with%20definitions) in the publication.
 
 ---
 
 ## How to Cite
 If you use BioGIM for research or teaching, please cite:
 
-Dada et al. (2025).
-"Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. isolates from Soap Lake, Washington." Journal Name, https://doi.org/10.1016/j.gce.2025.08.004
+Dada, O. I., Abeysinghe, S., Rahat, S. S., Liyanage, T. U. H., Xiong, X., Zhu, K., Yu, L., Neibergs, S., & Chen, S. (2025). Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. Isolates from Soap Lake, Washington. _Green Chemical Engineering_. https://doi.org/10.1016/j.gce.2025.08.004
 
-You may also cite this repository (see Zenodo badge above).
+You may also cite this repository via the [Zenodo badge above](https://doi.org/10.1016/j.gce.2025.08.004) for a DOI-formatted citation..
 
 ---
 
