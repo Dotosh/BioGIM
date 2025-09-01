@@ -5,7 +5,7 @@
 BioGIM (Biodesulfurization Growth Inhibition Model) is an open-source Haldane-based kinetics model for modeling the biotransformation of thiosulfate (S₂O₃²⁻) to sulfate (SO₄²⁻) and elemental sulfur (S⁰) by sulfur-oxidizing bacteria (SOB) under conditions of sulfate inhibition. It is implemented in Python v3.12.7.
 
 > **From the publication:**  
-> *A Haldane-based kinetic model—BioGIM (Biodesulfurization Growth Inhibition Model)—was developed to describe growth dynamics...by accounting...for sulfate-induced growth inhibition, predict the critical sulfate inhibition threshold (PSO₄,max), and capture...the metabolic switch from the primary substrate (thiosulfate) to a secondary substrate (elemental sulfur) under thiosulfate-limited conditions*
+> *A Haldane-based kinetic model—BioGIM (Biodesulfurization Growth Inhibition Model)—was developed to describe growth dynamics...by accounting...for sulfate-induced growth inhibition, predict the critical sulfate inhibition threshold (P<sub>SO₄,max</sub>), and capture...the metabolic switch from the primary substrate (thiosulfate) to a secondary substrate (elemental sulfur) under thiosulfate-limited conditions*
 
 This model and its application are described in detail in our peer-reviewed article (**https://doi.org/10.1016/j.gce.2025.08.004**).
 
@@ -32,7 +32,7 @@ BioGIM is a mechanistic model formulated in Python to describe:
 
 - Microbial growth dynamics and thiosulfate biodesulfurization to sulfate and elemental sulfur.
 - The effect of sulfate product (SO₄²⁻) inhibition on microbial growth and metabolism.
-- The critical sulfate inhibition threshold (PSO₄,max) and its effect on metabolic pathways.
+- The critical sulfate inhibition threshold (P<sub>SO₄,max</sub>) and its effect on metabolic pathways.
 - The metabolic switch from thiosulfate to elemental sulfur (S⁰) as a secondary substrate under substrate-limited conditions.
 
 BioGIM uses four time-series state variables:
@@ -136,7 +136,7 @@ For full details, see [Table 1](https://www.sciencedirect.com/science/article/pi
 ## How to Cite
 If you use BioGIM for research or teaching, please cite:
 
-Dada, O. I., Abeysinghe, S., Rahat, S. S., Liyanage, T. U. H., Xiong, X., Zhu, K., Yu, L., Neibergs, S., & Chen, S. (2025). Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. Isolates from Soap Lake, Washington. _Green Chemical Engineering_. https://doi.org/10.1016/j.gce.2025.08.004
+Dada, O. I., Abeysinghe, S., Rahat, S. S., Liyanage, T. U. H., Xiong, X., Zhu, K., Yu, L., Neibergs, S., & Chen, S. (2025). Kinetic modeling of sulfate inhibition effects on growth dynamics of novel _Thioalkalivibrio_ sp. Isolates from Soap Lake, Washington. _Green Chemical Engineering_. https://doi.org/10.1016/j.gce.2025.08.004
 
 ---
 
