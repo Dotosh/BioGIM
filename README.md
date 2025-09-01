@@ -138,12 +138,10 @@ If you use BioGIM for research or teaching, please cite:
 
 Dada, O. I., Abeysinghe, S., Rahat, S. S., Liyanage, T. U. H., Xiong, X., Zhu, K., Yu, L., Neibergs, S., & Chen, S. (2025). Kinetic modeling of sulfate inhibition effects on growth dynamics of novel Thioalkalivibrio sp. Isolates from Soap Lake, Washington. _Green Chemical Engineering_. https://doi.org/10.1016/j.gce.2025.08.004
 
-You may also cite this repository via the [Zenodo badge above](https://doi.org/10.1016/j.gce.2025.08.004) for a DOI-formatted citation..
-
 ---
 
 ## License
-BioGIM is licensed under the MIT License. See LICENSE for details.
+BioGIM is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
