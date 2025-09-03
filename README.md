@@ -136,7 +136,7 @@ For full details, see [Table 1](https://www.sciencedirect.com/science/article/pi
 ## How to Cite
 If you use BioGIM for research or teaching, please cite:
 
-Dada, O. I., Abeysinghe, S., Rahat, S. S., Liyanage, T. U. H., Xiong, X., Zhu, K., Yu, L., Neibergs, S., & Chen, S. (2025). Kinetic modeling of sulfate inhibition effects on growth dynamics of novel _Thioalkalivibrio_ sp. Isolates from Soap Lake, Washington. _Green Chemical Engineering_. https://doi.org/10.1016/j.gce.2025.08.004
+Dada, O. I., Abeysinghe, S., Rahat, S. S., Liyanage, T. U. H., Xiong, X., Zhu, K., Yu, L., Neibergs, S., & Chen, S. (2025). Kinetic modeling of sulfate inhibition effects on growth dynamics of novel _Thioalkalivibrio_ sp. isolates from Soap Lake, Washington. _Green Chemical Engineering_. https://doi.org/10.1016/j.gce.2025.08.004
 
 ---
 
