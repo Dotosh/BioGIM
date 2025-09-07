@@ -78,8 +78,7 @@ cd BioGIM
 ````
 **2. Install required dependencies**
 ````bash
-pip install -r requirements.txt
-Dependencies include: numpy, scipy, matplotlib.
+pip install numpy, scipy, matplotlib
 ````
 ---
 
